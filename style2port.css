@@ -1,0 +1,342 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.m1 {
+    height: 100vh;
+    width: 0cap;
+    background-image: url(ObEGSN.webp);
+    background-position: center;
+    background-size: contain;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.r {
+    color: black;
+    font-size: 55px;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+    padding: 10px 10px;
+    border: 2px solid transparent;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+span {
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    color: teal;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: yellow;
+    transition: .4s;
+}
+
+.btn {
+    color: rgb(182, 46, 91);
+    background-color: yellow;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-40%);
+}
+
+h1 {
+    color: wheat;
+    margin: 10px 0px 10px;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: cursive; */
+}
+
+h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+
+h4 {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.contnet2 form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.contnet2 form input:first-child {
+    display: inline-block;
+    width: 70%;
+    position: absolute;
+    padding: 10px 0px 10px 15px;
+    border: 2px solid yellowgreen;
+    border-radius: 15px;
+    top: 5px;
+    right: -250px;
+}
+
+.contnet2 form input:last-child {
+    position: absolute;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(51, 0, 255);
+    top: 40px;
+    right: -360px;
+}
+
+.photo {
+    width: 320px;
+    height: 350px;
+    position: absolute;
+    display: inline-block;
+    top: 45px;
+    left: 850px;
+    border: .1px dotted red;
+    border-radius: 8px;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(121, 162, 187);
+}
+
+.about img {
+    height: 450px;
+    width: 600px;
+    padding: 0px 60px;
+}
+
+.abouttext {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.abouttext h2 {
+    color: white;
+    font-size: 75px;
+    margin-bottom: 20px;
+
+}
+
+.abouttext h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+
+}
+
+.abouttext p {
+    color: whitesmoke;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 45px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition-duration: .4s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.service {
+    background: #101010;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.title h2 {
+    color: teal;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #978686;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+h5 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+
+}
+
+.pra p {
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card .button {
+    background-color: white;
+    color: black;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition-duration: .4s;
+}
+
+.card .button:hover {
+    transform: scale(1.1);
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.contact-me {
+    width: 100%;
+    height: 150px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-me .button-two {
+    background-color: greenyellow;
+    color: black;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition-duration: .4s;
+}
+
+.contact-me .button-two:hover {
+    transform: scale(1.1);
+    color: azure;
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1) {
+    color: white;
+    font-size: 20px;
+}
+
+.social {
+    display: flex;
+}
+
+.social a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: pink;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+}
+
+.social a:hover {
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+.end {
+    position: absolute;
+    color: red;
+    bottom: 35px;
+    font-size: 14px;
+}
